@@ -40,8 +40,8 @@ function renderWord() {
 
 // Event listener for input field
 inputField.addEventListener('input', function() {
-    const typedWord = inputField.value.trim();
-    const currentWord = words[currentWordIndex];
+    const typedWord = inputField.value.trim(),
+          currentWord = words[currentWordIndex];
 
     if (typedWord === currentWord) {
         if (currentWordIndex === words.length - 1) {
@@ -63,12 +63,12 @@ function endGame() {
     Congratulations.textContent ='Congratulations!';
     resultContainer.textContent = `Time : ${elapsedTime} seconds.`;
     score.textContent =`Your speed: ${wordsPerMinute} words per minute.`;
-    if(wordsPerMinute > 35){
-        level.textContent = 'Level: Normal';
-    }if (wordsPerMinute <=35 ) {
-        level.textContent = 'Level: Pro';
-    }if(wordsPerMinute <= 20){
+    if(wordsPerMinute >= 36){
         level.textContent = 'Level: Pro Mak';
+    }if (wordsPerMinute <= 35 ) {
+        level.textContent = 'Level: Pro';
+    }if(wordsPerMinute <= 25){
+        level.textContent = 'Level: Normal';
     }
 }
 

@@ -1,8 +1,11 @@
+body{
+    background: rgb(247, 200, 208);
+}
 button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #3f26e6;
     color: white;
     border: none;
     border-radius: 5px;
@@ -16,7 +19,7 @@ button:hover {
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #f5b2b2;
+    border: 1px solid #2295c6;
     max-width: 600px;
 }
 #word-container {
@@ -37,7 +40,7 @@ button:hover {
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #f5b2b2;
+    border: 1px solid #2295c6;
     max-width: 500px
 }
 
@@ -59,7 +62,7 @@ button:hover {
     margin-top: 10px; 
 }
 #level{
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(205, 15, 15); 
     margin-top: 10px;
 }
@@ -68,9 +71,13 @@ button:hover {
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #f5b2b2;
+    border: 1px solid #2295c6;
     max-width: 500px
 }
 li{
     margin-top: 10px;
+}
+li>span{
+    color: red;
+    font-size: 15px;
 }
