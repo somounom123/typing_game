@@ -1,0 +1,60 @@
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.wraper{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #f5b2b2;
+    max-width: 600px;
+}
+#word-container {
+    border: 1px solid #cdc3c3;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#input-field {
+    font-size: 24px;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.resutl-clock{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #f5b2b2;
+    max-width: 600px
+}
+
+#result {
+    font-size: 20px;
+    color: blue;    
+    margin-top: 10px;
+}
+
+#congra{
+    font-size: 20px;
+    color: rgb(217, 15, 62); 
+    margin-top: 10px;
+}
+
+#socre{
+    font-size: 20px;
+    color: blue; 
+    margin-top: 10px; 
+}
+
