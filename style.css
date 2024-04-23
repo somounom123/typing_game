@@ -21,6 +21,7 @@ button:hover {
 }
 #word-container {
     border: 1px solid #cdc3c3;
+    background-color: #cdc3c3;
     font-family: Arial, sans-serif;
     font-size: 24px;
     margin-bottom: 20px;
@@ -56,5 +57,10 @@ button:hover {
     font-size: 20px;
     color: blue; 
     margin-top: 10px; 
+}
+#level{
+    font-size: 30px;
+    color: rgb(205, 15, 15); 
+    margin-top: 10px;
 }
 
