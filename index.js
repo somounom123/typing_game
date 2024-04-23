@@ -64,7 +64,7 @@ function endGame() {
     resultContainer.textContent = `Time : ${elapsedTime} seconds.`;
     score.textContent =`Your speed: ${wordsPerMinute} words per minute.`;
     if(wordsPerMinute >= 36){
-        level.textContent = 'Level: Pro Mak';
+        level.textContent = 'Level: Pro Max';
     }if (wordsPerMinute <= 35 ) {
         level.textContent = 'Level: Pro';
     }if(wordsPerMinute <= 25){
