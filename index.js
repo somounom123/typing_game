@@ -7,7 +7,10 @@
 
 // word for game  
 const words = [
-    'hello',
+    'If','a','glass','ball','and','rubber','ball','of','the',
+    'same','size','are','dropped','from','the','same','height',
+    'which','ball','will','bounce','higher','The','answer','is',
+    'the','glass','ball','unless','it','breaks','during','the','fall.'
 ]; 
 
 //get Id 
@@ -60,12 +63,12 @@ function endGame() {
     Congratulations.textContent ='Congratulations!';
     resultContainer.textContent = `Time : ${elapsedTime} seconds.`;
     score.textContent =`Your speed: ${wordsPerMinute} words per minute.`;
-    if(elapsedTime > 4){
-        level.textContent = 'Normal';
-    }if (elapsedTime <= 4) {
-        level.textContent = 'Pro';
-    }if(elapsedTime <= 2){
-        level.textContent = 'Pro mak';
+    if(wordsPerMinute > 35){
+        level.textContent = 'Level: Normal';
+    }if (wordsPerMinute <=35 ) {
+        level.textContent = 'Level: Pro';
+    }if(wordsPerMinute <= 20){
+        level.textContent = 'Level: Pro Mak';
     }
 }
 

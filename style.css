@@ -38,7 +38,7 @@ button:hover {
     margin: 20px;
     padding: 20px;
     border: 1px solid #f5b2b2;
-    max-width: 600px
+    max-width: 500px
 }
 
 #result {
@@ -64,3 +64,13 @@ button:hover {
     margin-top: 10px;
 }
 
+#noted{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #f5b2b2;
+    max-width: 500px
+}
+li{
+    margin-top: 10px;
+}
