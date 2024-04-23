@@ -57,14 +57,14 @@ function endGame() {
     const elapsedTime    = (endTime - startTime) / 1000; // Time in seconds
           wordsPerMinute = Math.round((words.length / elapsedTime) * 60);
         
-    Congratulations.textContent ='Congratulations! You finished';
+    Congratulations.textContent ='Congratulations!';
     resultContainer.textContent = `Time : ${elapsedTime} seconds.`;
     score.textContent =`Your speed: ${wordsPerMinute} words per minute.`;
     if(elapsedTime > 4){
-        level.textContent = 'Nomal';
+        level.textContent = 'Normal';
     }if (elapsedTime <= 4) {
         level.textContent = 'Pro';
-    }if(elapsedTime == 2){
+    }if(elapsedTime <= 2){
         level.textContent = 'Pro mak';
     }
 }
